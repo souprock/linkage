@@ -16,6 +16,7 @@
 		10A4F93D1E56BE3C009597D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A4F93B1E56BE3C009597D6 /* LaunchScreen.storyboard */; };
 		10A4F9481E56BE3C009597D6 /* linkageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A4F9471E56BE3C009597D6 /* linkageTests.m */; };
 		10A4F9531E56BE3C009597D6 /* linkageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A4F9521E56BE3C009597D6 /* linkageUITests.m */; };
+		10A4F9651E56C501009597D6 /* SunDataPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A4F9631E56C501009597D6 /* SunDataPicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		10A4F94E1E56BE3C009597D6 /* linkageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = linkageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A4F9521E56BE3C009597D6 /* linkageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = linkageUITests.m; sourceTree = "<group>"; };
 		10A4F9541E56BE3C009597D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A4F9631E56C501009597D6 /* SunDataPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunDataPicker.m; sourceTree = "<group>"; };
+		10A4F9641E56C501009597D6 /* SunDataPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunDataPicker.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 		10A4F9291E56BE3C009597D6 /* linkage */ = {
 			isa = PBXGroup;
 			children = (
+				10A4F9631E56C501009597D6 /* SunDataPicker.m */,
+				10A4F9641E56C501009597D6 /* SunDataPicker.h */,
 				10A4F92D1E56BE3C009597D6 /* AppDelegate.h */,
 				10A4F92E1E56BE3C009597D6 /* AppDelegate.m */,
 				10A4F9301E56BE3C009597D6 /* ViewController.h */,
@@ -282,6 +287,7 @@
 				10A4F9321E56BE3C009597D6 /* ViewController.m in Sources */,
 				10A4F92F1E56BE3C009597D6 /* AppDelegate.m in Sources */,
 				10A4F92C1E56BE3C009597D6 /* main.m in Sources */,
+				10A4F9651E56C501009597D6 /* SunDataPicker.m in Sources */,
 				10A4F9381E56BE3C009597D6 /* linkage.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
